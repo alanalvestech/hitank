@@ -17,11 +17,11 @@
 <br />
 
 <p align="center">
-  <a href="#-quick-start">Quick Start</a> &nbsp;&bull;&nbsp;
-  <a href="#-available-skills">Available Skills</a> &nbsp;&bull;&nbsp;
-  <a href="#-installation">Installation</a> &nbsp;&bull;&nbsp;
-  <a href="#-why-ruby">Why Ruby</a> &nbsp;&bull;&nbsp;
-  <a href="#-how-it-works">How It Works</a>
+  <a href="#rocket-quick-start">Quick Start</a> &nbsp;&bull;&nbsp;
+  <a href="#package-available-skills">Available Skills</a> &nbsp;&bull;&nbsp;
+  <a href="#wrench-installation">Installation</a> &nbsp;&bull;&nbsp;
+  <a href="#diamond_shape_with_a_dot_inside-why-ruby">Why Ruby</a> &nbsp;&bull;&nbsp;
+  <a href="#gear-how-it-works">How It Works</a>
 </p>
 
 ---
