@@ -50,6 +50,7 @@ hitank del google-sheets           # Remove a skill
 | Monitoring | honeybadger | Monitor errors, uptime and deployments on Honeybadger |
 | Platform | heroku | Manage Heroku apps, dynos, config and deployments via Platform API |
 | Project Management | clickup | Manage ClickUp tasks, lists, spaces, time tracking and comments |
+| Communication | discord | Manage Discord servers, channels, messages and members via Bot API |
 
 ## :wrench: Installation
 
