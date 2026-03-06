@@ -45,37 +45,59 @@ hitank del google-sheets           # Remove a skill
 ## :package: Skills Catalog
 
 ### :briefcase: Project Management
-- **[clickup](skills/clickup)** — Manage ClickUp workspaces, spaces, lists, tasks, comments and time tracking. Search tasks, create/update/delete with filters and pagination. Supports bulk operations and task hierarchy navigation. `hitank add clickup`
-- **[jira](skills/jira)** — Manage Jira Cloud issues, projects, sprints and boards. Search with JQL, create/update issues, transition statuses, assign, comment. Supports Agile boards and sprint management. `hitank add jira`
-- **[linear](skills/linear)** — Manage Linear issues, projects, teams, cycles and labels via GraphQL API. Create/update issues, search, comment. Supports team filtering and cycle management. `hitank add linear`
+- **[clickup](skills/clickup)** — Manage ClickUp workspaces, spaces, lists, tasks, comments and time tracking. Search tasks, create/update/delete with filters and pagination. Supports bulk operations and task hierarchy navigation.
+- **[jira](skills/jira)** — Manage Jira Cloud issues, projects, sprints and boards. Search with JQL, create/update issues, transition statuses, assign, comment. Supports Agile boards and sprint management.
+- **[linear](skills/linear)** — Manage Linear issues, projects, teams, cycles and labels via GraphQL API. Create/update issues, search, comment. Supports team filtering and cycle management.
 
 ### :bar_chart: CRM & Sales
-- **[hubspot](skills/hubspot)** — Manage HubSpot CRM contacts, companies, deals and pipelines. Search across objects, create/update records, list owners and notes. Cursor-based pagination for large datasets. `hitank add hubspot`
+- **[hubspot](skills/hubspot)** — Manage HubSpot CRM contacts, companies, deals and pipelines. Search across objects, create/update records, list owners and notes. Cursor-based pagination for large datasets.
 
 ### :cloud: Platform & Infrastructure
-- **[heroku](skills/heroku)** — Manage Heroku apps, dynos, config vars, releases, add-ons, domains and formation. View logs, restart dynos, scale processes. Full Platform API coverage. `hitank add heroku`
-- **[hostinger](skills/hostinger)** — Manage Hostinger domains, DNS records, hosting websites, subscriptions and VPS. Check domain availability, update nameservers, manage DNS snapshots and WHOIS privacy. `hitank add hostinger`
+- **[heroku](skills/heroku)** — Manage Heroku apps, dynos, config vars, releases, add-ons, domains and formation. View logs, restart dynos, scale processes. Full Platform API coverage.
+- **[hostinger](skills/hostinger)** — Manage Hostinger domains, DNS records, hosting websites, subscriptions and VPS. Check domain availability, update nameservers, manage DNS snapshots and WHOIS privacy.
 
 ### :speech_balloon: Communication
-- **[discord](skills/discord)** — Manage Discord servers, channels and messages via Bot API. Send/edit/delete messages, react, pin, create threads, list members and roles. `hitank add discord`
-- **[resend](skills/resend)** — Send transactional emails via Resend API. Manage domains with DNS verification, contacts, broadcasts and API keys. Schedule emails, track delivery status and send newsletters. `hitank add resend`
-- **[rewrite](skills/rewrite)** — Send SMS messages via Rewrite API. Manage templates with variables, webhooks for delivery events, API keys and projects. Cursor-based pagination for large datasets. `hitank add rewrite`
-- **[slack](skills/slack)** — Manage Slack channels, messages, users, reactions and files via Bot API. Post messages, search, upload files, pin messages and manage reactions. `hitank add slack`
+- **[discord](skills/discord)** — Manage Discord servers, channels and messages via Bot API. Send/edit/delete messages, react, pin, create threads, list members and roles.
+- **[resend](skills/resend)** — Send transactional emails via Resend API. Manage domains with DNS verification, contacts, broadcasts and API keys. Schedule emails, track delivery status and send newsletters.
+- **[rewrite](skills/rewrite)** — Send SMS messages via Rewrite API. Manage templates with variables, webhooks for delivery events, API keys and projects. Cursor-based pagination for large datasets.
+- **[slack](skills/slack)** — Manage Slack channels, messages, users, reactions and files via Bot API. Post messages, search, upload files, pin messages and manage reactions.
 
 ### :credit_card: Payments
-- **[abacatepay](skills/abacatepay)** — Manage AbacatePay payments, PIX QR codes, customers, coupons, withdrawals and revenue. Create charges, check payment status, manage discount coupons and track MRR. `hitank add abacatepay`
-- **[stripe](skills/stripe)** — Manage Stripe payments, customers, subscriptions, invoices and products via REST API. Create charges, payment intents, manage prices and check account balance. `hitank add stripe`
+- **[abacatepay](skills/abacatepay)** — Manage AbacatePay payments, PIX QR codes, customers, coupons, withdrawals and revenue. Create charges, check payment status, manage discount coupons and track MRR.
+- **[stripe](skills/stripe)** — Manage Stripe payments, customers, subscriptions, invoices and products via REST API. Create charges, payment intents, manage prices and check account balance.
 
 ### :chart_with_upwards_trend: Monitoring
-- **[appsignal](skills/appsignal)** — Monitor AppSignal apps — graphs, markers, samples and sourcemaps via REST API. View performance metrics, create deploy/custom markers, inspect error and performance samples, upload sourcemaps. `hitank add appsignal`
-- **[honeybadger](skills/honeybadger)** — Monitor errors, uptime and deployments on Honeybadger. List projects, browse faults with filters, view fault details, resolve issues, track deploys and check uptime sites. `hitank add honeybadger`
+- **[appsignal](skills/appsignal)** — Monitor AppSignal apps — graphs, markers, samples and sourcemaps via REST API. View performance metrics, create deploy/custom markers, inspect error and performance samples, upload sourcemaps.
+- **[honeybadger](skills/honeybadger)** — Monitor errors, uptime and deployments on Honeybadger. List projects, browse faults with filters, view fault details, resolve issues, track deploys and check uptime sites.
 
 ### :page_facing_up: Office & Productivity
-- **[google-sheets](skills/google-sheets)** — Read and write Google Sheets via REST API. List tabs, read ranges, write data and append rows. Supports RAW and USER_ENTERED input modes for formulas and dates. `hitank add google-sheets`
-- **[notion](skills/notion)** — Manage Notion pages, databases, blocks and users via REST API. Search, query databases, create/update pages, append blocks. Supports all block types. `hitank add notion`
+- **[google-sheets](skills/google-sheets)** — Read and write Google Sheets via REST API. List tabs, read ranges, write data and append rows. Supports RAW and USER_ENTERED input modes for formulas and dates.
+- **[notion](skills/notion)** — Manage Notion pages, databases, blocks and users via REST API. Search, query databases, create/update pages, append blocks. Supports all block types.
 
 ### :shopping_cart: E-commerce
-- **[shopify](skills/shopify)** — Manage Shopify products, orders, customers, inventory and collections via Admin API. Create/update products, track orders, manage inventory levels and custom collections. `hitank add shopify`
+- **[shopify](skills/shopify)** — Manage Shopify products, orders, customers, inventory and collections via Admin API. Create/update products, track orders, manage inventory levels and custom collections.
+
+### :zap: Quick Install
+
+```bash
+hitank add abacatepay    # Payments — PIX, customers, coupons
+hitank add appsignal     # Monitoring — graphs, markers, samples
+hitank add clickup       # Project management — tasks, comments, time tracking
+hitank add discord       # Communication — messages, channels, threads
+hitank add google-sheets # Office — read/write spreadsheets
+hitank add heroku        # Infrastructure — apps, dynos, config vars
+hitank add honeybadger   # Monitoring — errors, uptime, deploys
+hitank add hostinger     # Infrastructure — domains, DNS, hosting
+hitank add hubspot       # CRM — contacts, companies, deals
+hitank add jira          # Project management — issues, sprints, boards
+hitank add linear        # Project management — issues, cycles, teams
+hitank add notion        # Office — pages, databases, blocks
+hitank add resend        # Communication — transactional emails, domains
+hitank add rewrite       # Communication — SMS, templates, webhooks
+hitank add shopify       # E-commerce — products, orders, inventory
+hitank add slack         # Communication — messages, files, reactions
+hitank add stripe        # Payments — charges, subscriptions, invoices
+```
 
 ## :wrench: Installation
 
