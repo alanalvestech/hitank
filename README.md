@@ -54,24 +54,37 @@ hitank del google-sheets           # Remove a skill
 - **[hubspot](skills/hubspot)** — Manage HubSpot CRM contacts, companies, deals and pipelines. Search across objects, create/update records, list owners and notes. Cursor-based pagination for large datasets.
 
 ### :cloud: Platform & Infrastructure
+- **[cloudflare](skills/cloudflare)** — Manage Cloudflare zones, DNS records, Workers, Pages and cache via REST API. Create/delete DNS records, list Workers scripts, purge cache. Supports zone management and account-level resources.
+- **[digitalocean](skills/digitalocean)** — Manage DigitalOcean droplets, domains, databases, App Platform and volumes via REST API. Create/reboot/power off droplets, manage DNS records, list managed databases and apps.
 - **[flyio](skills/flyio)** — Manage Fly.io apps, machines, volumes and certificates via Machines API. Create/start/stop/delete machines, manage volumes with snapshots, request ACME certificates. Supports regions, scaling and health checks.
 - **[heroku](skills/heroku)** — Manage Heroku apps, dynos, config vars, releases, add-ons, domains and formation. View logs, restart dynos, scale processes. Full Platform API coverage.
 - **[hostinger](skills/hostinger)** — Manage Hostinger domains, DNS records, hosting websites, subscriptions and VPS. Check domain availability, update nameservers, manage DNS snapshots and WHOIS privacy.
 - **[railway](skills/railway)** — Manage Railway projects, services, deployments, variables, domains and volumes via GraphQL API. Deploy, rollback, view logs, manage environments. Supports GitHub repos, Docker images and custom domains.
+- **[vercel](skills/vercel)** — Manage Vercel projects, deployments, domains and environment variables via REST API. List/inspect deployments, view logs, redeploy. Supports environment variable management and domain configuration.
+
+### :bird: Social Media
+- **[x](skills/x)** — Post and manage tweets on X (formerly Twitter) via API v2. Post/delete tweets, search, view likes. OAuth 1.0a with HMAC-SHA1 signature, pure Ruby.
 
 ### :speech_balloon: Communication
 - **[discord](skills/discord)** — Manage Discord servers, channels and messages via Bot API. Send/edit/delete messages, react, pin, create threads, list members and roles.
+- **[intercom](skills/intercom)** — Manage Intercom conversations, contacts, articles and help center via REST API. List/reply to conversations, search contacts, browse help center articles.
 - **[resend](skills/resend)** — Send transactional emails via Resend API. Manage domains with DNS verification, contacts, broadcasts and API keys. Schedule emails, track delivery status and send newsletters.
 - **[rewrite](skills/rewrite)** — Send SMS messages via Rewrite API. Manage templates with variables, webhooks for delivery events, API keys and projects. Cursor-based pagination for large datasets.
 - **[slack](skills/slack)** — Manage Slack channels, messages, users, reactions and files via Bot API. Post messages, search, upload files, pin messages and manage reactions.
+- **[twilio](skills/twilio)** — Send SMS, list messages and calls via Twilio REST API. Manage phone numbers, view usage records. Supports form-encoded API with Basic auth.
+- **[zendesk](skills/zendesk)** — Manage Zendesk tickets, users, organizations and knowledge base via REST API. Create/update tickets, search, list users and browse help center articles.
 
 ### :credit_card: Payments
 - **[abacatepay](skills/abacatepay)** — Manage AbacatePay payments, PIX QR codes, customers, coupons, withdrawals and revenue. Create charges, check payment status, manage discount coupons and track MRR.
+- **[mercadopago](skills/mercadopago)** — Manage MercadoPago payments, customers, refunds and payment methods via REST API. Search payments, create charges, process refunds, check account balance. Supports PIX and boleto.
 - **[stripe](skills/stripe)** — Manage Stripe payments, customers, subscriptions, invoices and products via REST API. Create charges, payment intents, manage prices and check account balance.
 
 ### :chart_with_upwards_trend: Monitoring
 - **[appsignal](skills/appsignal)** — Monitor AppSignal apps — graphs, markers, samples and sourcemaps via REST API. View performance metrics, create deploy/custom markers, inspect error and performance samples, upload sourcemaps.
+- **[datadog](skills/datadog)** — Monitor Datadog infrastructure — monitors, dashboards, events, metrics and hosts via REST API. Mute/unmute monitors, list dashboards, view events and active metrics.
 - **[honeybadger](skills/honeybadger)** — Monitor errors, uptime and deployments on Honeybadger. List projects, browse faults with filters, view fault details, resolve issues, track deploys and check uptime sites.
+- **[posthog](skills/posthog)** — Manage PostHog analytics — events, persons, feature flags, insights and annotations via REST API. Toggle feature flags, list events, view insights. Supports cloud and self-hosted.
+- **[sentry](skills/sentry)** — Monitor Sentry errors — issues, events, releases and organizations via REST API. List/resolve issues, view events, track releases. Supports project and org-level queries.
 
 ### :page_facing_up: Office & Productivity
 - **[google-sheets](skills/google-sheets)** — Read and write Google Sheets via REST API. List tabs, read ranges, write data and append rows. Supports RAW and USER_ENTERED input modes for formulas and dates.
@@ -80,29 +93,62 @@ hitank del google-sheets           # Remove a skill
 ### :shopping_cart: E-commerce
 - **[shopify](skills/shopify)** — Manage Shopify products, orders, customers, inventory and collections via Admin API. Create/update products, track orders, manage inventory levels and custom collections.
 
+### :floppy_disk: Databases
+- **[planetscale](skills/planetscale)** — Manage PlanetScale databases, branches, deploy requests and backups via REST API. Create branches, submit deploy requests, list backups. Supports org-level and database-level operations.
+- **[supabase](skills/supabase)** — Manage Supabase projects, edge functions, secrets and API keys via Management API. Pause/restore projects, list functions, manage secrets. Full project lifecycle management.
+
+### :fire: Backend & BaaS
+- **[firebase](skills/firebase)** — Manage Firebase projects, Firestore, Auth users and Hosting via REST API. List collections/documents, browse auth users, manage hosting sites and releases. Uses service account JWT auth.
+
+### :art: Media & Storage
+- **[cloudinary](skills/cloudinary)** — Manage Cloudinary media assets, transformations and upload via REST API. List resources/folders, upload images from URL, view usage stats. Supports transformations and folder navigation.
+
+### :robot_face: AI & Machine Learning
+- **[openai](skills/openai)** — Manage OpenAI models, assistants, files and usage via REST API. List models, manage assistants, upload/delete files, view usage stats and fine-tuning jobs.
+
+### :gear: Automation
+- **[n8n](skills/n8n)** — Manage n8n workflows, executions and credentials via REST API. Activate/deactivate workflows, list executions, view credentials. Supports cloud and self-hosted instances.
+
 ### :zap: Quick Install
 
 ```bash
-hitank add abacatepay    # Payments — PIX, customers, coupons
-hitank add appsignal     # Monitoring — graphs, markers, samples
-hitank add clickup       # Project management — tasks, comments, time tracking
-hitank add discord       # Communication — messages, channels, threads
-hitank add flyio         # Infrastructure — machines, volumes, certificates
-hitank add google-sheets # Office — read/write spreadsheets
-hitank add heroku        # Infrastructure — apps, dynos, config vars
-hitank add honeybadger   # Monitoring — errors, uptime, deploys
-hitank add hostinger     # Infrastructure — domains, DNS, hosting
-hitank add hubspot       # CRM — contacts, companies, deals
-hitank add jira          # Project management — issues, sprints, boards
-hitank add linear        # Project management — issues, cycles, teams
-hitank add notion        # Office — pages, databases, blocks
-hitank add railway       # Infrastructure — projects, services, deployments
-hitank add resend        # Communication — transactional emails, domains
-hitank add rewrite       # Communication — SMS, templates, webhooks
-hitank add shopify       # E-commerce — products, orders, inventory
-hitank add slack         # Communication — messages, files, reactions
-hitank add stripe        # Payments — charges, subscriptions, invoices
-hitank add trello        # Project management — boards, lists, cards
+hitank add abacatepay      # Payments — PIX, customers, coupons
+hitank add appsignal       # Monitoring — graphs, markers, samples
+hitank add clickup         # Project management — tasks, comments, time tracking
+hitank add cloudflare      # Infrastructure — zones, DNS, Workers, Pages
+hitank add cloudinary      # Media — images, folders, transformations
+hitank add datadog         # Monitoring — monitors, dashboards, metrics
+hitank add digitalocean    # Infrastructure — droplets, domains, databases
+hitank add discord         # Communication — messages, channels, threads
+hitank add firebase        # Backend — Firestore, Auth, Hosting
+hitank add flyio           # Infrastructure — machines, volumes, certificates
+hitank add google-sheets   # Office — read/write spreadsheets
+hitank add heroku          # Infrastructure — apps, dynos, config vars
+hitank add honeybadger     # Monitoring — errors, uptime, deploys
+hitank add hostinger       # Infrastructure — domains, DNS, hosting
+hitank add hubspot         # CRM — contacts, companies, deals
+hitank add intercom        # Communication — conversations, contacts, articles
+hitank add jira            # Project management — issues, sprints, boards
+hitank add linear          # Project management — issues, cycles, teams
+hitank add mercadopago     # Payments — PIX, boleto, refunds
+hitank add n8n             # Automation — workflows, executions, credentials
+hitank add notion          # Office — pages, databases, blocks
+hitank add openai          # AI — models, assistants, files, usage
+hitank add planetscale     # Database — branches, deploy requests, backups
+hitank add posthog         # Analytics — events, feature flags, insights
+hitank add railway         # Infrastructure — projects, services, deployments
+hitank add resend          # Communication — transactional emails, domains
+hitank add rewrite         # Communication — SMS, templates, webhooks
+hitank add sentry          # Monitoring — issues, events, releases
+hitank add shopify         # E-commerce — products, orders, inventory
+hitank add slack           # Communication — messages, files, reactions
+hitank add stripe          # Payments — charges, subscriptions, invoices
+hitank add supabase        # Backend — projects, functions, secrets
+hitank add trello          # Project management — boards, lists, cards
+hitank add twilio          # Communication — SMS, calls, phone numbers
+hitank add x               # Social media — post tweets, search, likes
+hitank add vercel          # Infrastructure — projects, deployments, domains
+hitank add zendesk         # Support — tickets, users, knowledge base
 ```
 
 ## :wrench: Installation
